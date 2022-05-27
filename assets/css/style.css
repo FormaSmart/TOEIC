@@ -680,7 +680,6 @@ section.main-banner {
 
 .main-banner .header-text::after {
   position: absolute;
-  background-image: url(../images/banner-left-dec.png);
   width: 214px;
   height: 429px;
   content: '';
