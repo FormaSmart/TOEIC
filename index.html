@@ -648,10 +648,10 @@
               <a href="https://formasmart.github.io/Scrum/">SCRUM</a>
             </li>
             <li>
-              <a href="https://formasmart.github.io/micro-creche/">Micro Crèche</a>
+              <a href="https://www.mc-formasmart.com">Micro Crèche</a>
             </li>
             <li>
-              <a href="https://formasmart.github.io/website/">Création d'entreprise</a>
+              <a href="https://www.entreprise-formasmart.com">Création d'entreprise</a>
             </li>
           </ul>
           <!--footer_ul_amrc ends here-->
@@ -716,7 +716,7 @@
         </li>
       </ul>
       <!--foote_bottom_ul_amrc ends here-->
-      <p class="text-center">Copyright © 2022 | Tous les droits réservés par <a href="https://formasmart.github.io/website/">FORMA SMART</a></p>
+      <p class="text-center">Copyright © 2022 | Tous les droits réservés par FORMA SMART</p>
       <!--social_footer_ul ends here-->
     </div>
 
@@ -724,17 +724,7 @@
   <!-- ***** Section Footer End ***** -->
 
   <!-- ***** Section Cookies Start ***** -->
-  <section class="cookie">
-    <div class="txt">
-      <p class="">
-        Nous utilisons des cookies pour analyser vos préférences en ligne &amp; personnaliser le contenu de l'annonce.
-        Vous acceptez notre Cookie.</a>
-      </p>
-    </div>
-    <div>
-      <a class="btn accept">Accepter</a>
-    </div>
-  </section>
+
   <!-- ***** Section Cookies End ***** -->
 
 
@@ -798,6 +788,54 @@
           checkSection();
         });
     </script>
+  <script src="dist/cookie.notice.js"></script>
+  <script>
+    new cookieNoticeJS({
+
+      // Localizations of the notice message
+      'messageLocales': {
+        'it': 'Custom localized message'
+      },
+
+      // Localizations of the dismiss button text
+      'buttonLocales': {
+        'it': 'Chiudi'
+      },
+
+      // Position for the cookie-notifier (default=bottom)
+      'cookieNoticePosition':'bottom',
+
+      // Shows the "learn more button (default=false)
+      'learnMoreLinkEnabled':false,
+
+      // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
+      'learnMoreLinkHref':'/learn/more/index.html',
+
+      // Text for optional learn more button
+      'learnMoreLinkText':{
+        'en':'learn more',
+        'fr':'en savoir plus'
+      },
+
+      // The message will be shown again in X days
+      'expiresIn': 60,
+
+      // Dismiss button background color
+      'buttonBgColor': '#de92d2',
+
+      // Dismiss button text color
+      'buttonTextColor': '#fff',
+
+      // Notice background color
+      'noticeBgColor': '#000',
+
+      // Notice text color
+      'noticeTextColor': '#fff',
+
+      // the lernMoreLink color (default='#009fdd')
+      'linkColor':'#de92d2'
+
+    });
 
 
 </body>
