@@ -2,7 +2,7 @@
   "name": "popup",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "faq.js",
   "scripts": {
     "serve": "parcel serve src/index.html"
   },

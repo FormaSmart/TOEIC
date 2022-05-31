@@ -1888,10 +1888,6 @@ body {
 }
 
 
-.accordion .accordion-item {
-
-}
-
 .accordion .accordion-item button[aria-expanded='true'] {
   border-bottom: 1px solid black;
 }
@@ -1990,6 +1986,3 @@ span.accordion-title:hover {
   margin: 2em 0;
   margin-left: 10px;
 }
-
-
-/*------- Cookies --------*/
