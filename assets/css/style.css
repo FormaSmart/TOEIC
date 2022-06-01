@@ -1981,6 +1981,7 @@ span.accordion-title:hover {
   will-change: opacity, max-height;
 }
 .accordion .accordion-content p {
+  font-family: 'Century Gothic', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
