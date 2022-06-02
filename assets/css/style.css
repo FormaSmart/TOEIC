@@ -282,7 +282,7 @@ header
 .header-area .main-nav .nav {
   float: right;
   /*margin-top: 35px;*/
-  margin-right: 0px;
+  margin-right: 0;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
