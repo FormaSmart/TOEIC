@@ -92,7 +92,7 @@ p {
 .logo {
   width: 90px;
   overflow: hidden;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 img {
@@ -280,7 +280,7 @@ header
 }
 
 .background-header .main-nav .logo {
-  line-height: 75px;
+  line-height: 65px;
 }
 
 .background-header .nav {
