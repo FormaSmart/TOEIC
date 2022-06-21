@@ -90,8 +90,9 @@ p {
 }
 
 .logo {
-  width: 100px;
+  width: 90px;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 img {
@@ -589,7 +590,8 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: 15px !important;
+    background-color: #fefefe;
   }
   .header-area .main-nav .nav li {
     width: 100%;
@@ -832,6 +834,7 @@ section.our-courses .naccs .menu div {
 }
 
 section.our-courses .naccs .menu div.active {
+  color: white;
   background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
   border: 3px solid rgba(219,138,222,1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
